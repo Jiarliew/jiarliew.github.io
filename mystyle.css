@@ -264,11 +264,11 @@ footer {
   and (orientation: portrait) { 
 
 .backgroundimage{
-	height: 125em;
+	height: 100em;
 }
 
 .logo {
-	width: 15em;
+	width: 25em;
 	margin-left: 4em;
 	margin-top: 4em;
 }
@@ -283,15 +283,15 @@ ul li {
 }
 
 #emailicon {
-	width: 4em;
+	width: 8em;
 }
 
 #phoneicon {
-	width: 2em;
+	width: 4em;
 }
 
 #linkedin {
-	width: 3.5em;
+	width: 7em;
 }
 
 #profilephoto {
