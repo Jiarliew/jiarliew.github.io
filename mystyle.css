@@ -212,7 +212,54 @@ ul li {
 
 }
 
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
+.logo {
+	width: 10em;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+.backgroundimage{
+	height: 40em;
+}
+
+ul li {
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
+#emailicon {
+	width: 2em;
+}
+
+#phoneicon {
+	width: 1em;
+}
+
+#linkedin {
+	width: 1.75em;
+}
+
+#profilephoto {
+	width: 8em;
+	margin-top: 4em;
+}
+
+.mainheader h2 {
+	padding-top: .5em;
+	font-size: 2em;
+}
+
+.mainheader p {
+	padding: .5em 5em 1.5em 5em;
+	line-height: 150%;
+	font-size: 1em;
+}
+
+.button {
+	font-size: 1.25em;
+} 1
 
 .white {
 	display: flex;
@@ -257,7 +304,7 @@ ul li {
 	text-align: right;
 }
 
-}*/
+}
 
 @media screen and (min-width: 1024px) {
 
