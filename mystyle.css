@@ -262,7 +262,9 @@ footer {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 
-
+#profilephoto {
+	width: 10em;
+}
 
 
 }
