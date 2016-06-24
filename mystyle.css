@@ -318,14 +318,13 @@ ul li {
 }
 
 .cyberdustimage {
-	display: flex;
-	justify-content: center;
 	padding: 0%;
 	margin: 0%;
 }
 
 .cyberdustimage img {
 	width: 100%;
+	text-align: center;
 	margin: 0%;
 }
 
