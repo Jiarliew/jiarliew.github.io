@@ -264,17 +264,17 @@ footer {
   and (orientation: portrait) { 
 
 .backgroundimage{
-	height: 100em;
+	height: 125em;
 }
 
 .logo {
-	width: 10em;
-	margin-left: 2em;
-	margin-top: 2em;
+	width: 15em;
+	margin-left: 4em;
+	margin-top: 4em;
 }
 
 ul li {
-	padding-right: 3em;
+	padding-right: 0em;
 }
 
 .nav {
