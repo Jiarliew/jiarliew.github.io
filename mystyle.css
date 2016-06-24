@@ -317,18 +317,23 @@ ul li {
 	display: block;
 }
 
-.cyberdustimage {
+/*.cyberdustimage {
 	padding: 15% 0% 5% 0%;
 }
 
-/*.cyberdustimage img {
+.cyberdustimage img {
 	width: 100%;
 }
 */
 
+.cyberdustimage {
+	padding: 0%
+	margin: 0%;
+}
+
 .cyberdustimage img {
-	width: 70%;
-	margin: 2% 5%;
+	width: 100%;
+	margin: 0%;
 }
 
 .description {
