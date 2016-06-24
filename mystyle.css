@@ -283,15 +283,15 @@ ul li {
 }
 
 #emailicon {
-	width: 8em;
+	width: 3em;
 }
 
 #phoneicon {
-	width: 4em;
+	width: 2em;
 }
 
 #linkedin {
-	width: 7em;
+	width: 3.5em;
 }
 
 #profilephoto {
@@ -301,7 +301,7 @@ ul li {
 }
 
 .mainheader h2 {
-	padding-top: 3em;
+	padding-top: 2em;
 }
 
 .mainheader p {
