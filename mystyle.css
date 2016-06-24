@@ -311,6 +311,11 @@ ul li {
 }
 
 
+.white {
+	display: block;
+	align-items: center;
+}
+
 .cyberdustimage img {
 	width: 70%;
 	margin: 8% 15%;
