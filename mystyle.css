@@ -321,8 +321,14 @@ ul li {
 	padding: 15% 0% 5% 0%;
 }
 
-.cyberdustimage img {
+/*.cyberdustimage img {
 	width: 100%;
+}
+*/
+
+.cyberdustimage img {
+	width: 70%;
+	margin: 8% 15%;
 }
 
 .description {
