@@ -264,11 +264,11 @@ footer {
   and (orientation: portrait) { 
 
 .backgroundimage{
-	height: 50em;
+	height: 36em;
 }
 
 .logo {
-	width: 25em;
+	width: 10em;
 	margin-left: 2em;
 	margin-top: 2em;
 }
