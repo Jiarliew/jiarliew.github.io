@@ -317,10 +317,13 @@ ul li {
 	display: block;
 }
 
-.cyberdustimage img {
-	width: 100%;
+.cyberdust {
 	padding: 0%;
 	margin: 0%;
+}
+
+.cyberdustimage img {
+	width: 100%;
 }
 
 .description {
