@@ -39,7 +39,7 @@ body {
 	background-image: url(workcover.png);
 	display: flex;
 	flex-direction: column;
-	height: 36em;
+	height: 38em;
 }
 
 .logo {
