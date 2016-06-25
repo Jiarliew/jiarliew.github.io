@@ -266,7 +266,7 @@ footer {
   and (orientation: portrait) { 
 
 .backgroundimage{
-	height: 70em;
+	height: 68em;
 }
 
 .logo {
@@ -355,6 +355,12 @@ ul li {
 	border: 3px solid #258FF3;
 	padding: 1em 1.85em .75em 2em;
 } 
+
+.gray {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
 
 .ontraportimg img {
 	width: 70%;
