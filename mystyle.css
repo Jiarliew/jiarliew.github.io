@@ -89,7 +89,7 @@ ul li {
 .mainheader h2 {
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: .5em;
+	padding-top: .75em;
 	color: #ffffff;
 	font-weight: lighter;
 	font-size: 2em;
@@ -97,7 +97,7 @@ ul li {
 
 .mainheader p {
 	text-align: center;
-	padding: .5em 6% 3.5em 6%;
+	padding: .25em 6% 3.5em 6%;
 	color: #ffffff;
 	line-height: 150%;
 	font-weight: lighter;
