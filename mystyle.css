@@ -266,7 +266,7 @@ footer {
   and (orientation: portrait) { 
 
 .backgroundimage{
-	height: 60em;
+	height: 70em;
 }
 
 .logo {
@@ -307,7 +307,7 @@ ul li {
 }
 
 .mainheader p {
-	padding: .5em 10% 2em 20%;
+	padding: .5em 10% 3em 10%;
 	line-height: 150%;
 	font-size: 2em;
 }
