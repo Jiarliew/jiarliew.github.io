@@ -81,7 +81,7 @@ ul li {
 }
 
 #profilephoto {
-	width: 18%;
+	width: 8em;
 	margin: 0 auto;
 	padding-top: 3em;
 }
@@ -200,8 +200,8 @@ footer {
 }
 
 .cyberdustimage img {
-	width: 80%;
-	margin: 10%;
+	width: 90%;
+	margin: 5%;
 }
 
 .description {
