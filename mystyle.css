@@ -194,7 +194,7 @@ footer {
 .cyberdustimage {
 	width: 50%;
 	margin-left: 15%;
-	margin-right: 3%;
+	margin-right: 5%;
 	padding-top: 10%;
 	padding-bottom: 10%;
 }
@@ -232,8 +232,8 @@ footer {
 }
 
 .ontraportimg img {
-	margin: 0%;
-	width: 100%;
+	margin: 10%;
+	width: 80%;
 }
 
 #ontraportleft {
