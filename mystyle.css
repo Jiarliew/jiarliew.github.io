@@ -162,11 +162,6 @@ footer {
 
 @media screen and (min-width: 768px) {
 
-/*.logo {
-	width: 10em;
-}
-*/
-
 .backgroundimage{
 	height: 45em;
 }
@@ -202,6 +197,11 @@ footer {
 	margin-right: 3%;
 	padding-top: 10%;
 	padding-bottom: 10%;
+}
+
+.cyberdustimage img {
+	width: 80%;
+	margin: 10%;
 }
 
 .description {
@@ -259,133 +259,6 @@ footer {
 }
 
 }
-
-/*
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-.backgroundimage{
-	height: 68em;
-}
-
-.logo {
-	width: 15em;
-	margin-left: 2em;
-	margin-top: 3.5em;
-}
-
-ul li {
-	padding-left: 3em;
-}
-
-.nav {
-	padding: 3em 1em 1em 1em;
-	height: 3em;
-}
-
-#emailicon {
-	width: 4em;
-}
-
-#phoneicon {
-	width: 2em;
-}
-
-#linkedin {
-	width: 3.5em;
-}
-
-#profilephoto {
-	width: 10em;
-	margin: 0 auto;
-	padding-top: 4em;
-}
-
-.mainheader h2 {
-	padding-top: .5em;
-}
-
-.mainheader p {
-	padding: .5em 10% 3em 10%;
-	line-height: 150%;
-	font-size: 2em;
-}
-
-
-.white {
-	display: block;
-}
-
-.cyberdustimage {
-	padding: 15% 0% 5% 0%;
-}
-
-.cyberdustimage img {
-	width: 100%;
-}
-
-
-.description {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 10em;
-}
-
-.description h1 {
-	font-size: 6em;
-}
-
-
-#cyberdustright {
-	padding-right: 0%;
-}
-
-.date {
-	font-size: 2em;
-}
-
-.text {
-	line-height: 150%;
-	font-size: 2em;
-}
-
-.button {
-	font-size: 2em;
-	border: 3px solid #258FF3;
-	padding: 1em 1.85em .75em 2em;
-} 
-
-.gray {
-	display:flex;
-	flex-direction:column;
-	align-items: center;
-}
-
-.ontraportimg {
-	width: 100%;
-}
-
-.ontraportimg img {
-	width: 46%;
-	margin: 12% 27% 4% 27%;
-}
-
-#ontraportleft {
-	text-align: center;
-}
-
-footer p {
-	font-size: 2em;
-}
-
-
-}
-*/
-
-
 
 
 
