@@ -362,6 +362,10 @@ ul li {
 	align-items: center;
 }
 
+.ontraportimg {
+	width: 100%;
+}
+
 .ontraportimg img {
 	width: 70%;
 	margin: 8% 15%;
