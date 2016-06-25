@@ -332,11 +332,14 @@ ul li {
 	margin-bottom: 5em;
 }
 
-#cyberdustright {
-	padding-right: 0%;
+.description h1 {
+	font-stretch: 2em;
 }
 
 
+#cyberdustright {
+	padding-right: 0%;
+}
 
 .date {
 	font-size: .85em;
