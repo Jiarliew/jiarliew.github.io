@@ -307,7 +307,7 @@ ul li {
 }
 
 .mainheader p {
-	padding: .5em 10% 2em 10%;
+	padding: .5em 10% 2em 20%;
 	line-height: 150%;
 	font-size: 2em;
 }
@@ -346,7 +346,6 @@ ul li {
 }
 
 .text {
-	/*margin: 1.5em 10% 3em 10%;*/
 	line-height: 150%;
 	font-size: 2em;
 }
