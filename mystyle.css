@@ -253,10 +253,16 @@ footer {
 }
 
 .ontraportimg {
-	margin: 5% 20% 5% 10%;
-	width: 25%;
+	margin: 5% 13% 5% 5%;
+	width: 35%;
 
 }
+
+.ontraportimg img {
+	margin: 10%;
+	width: 80%;
+}
+
 
 }
 
