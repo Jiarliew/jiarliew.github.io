@@ -169,6 +169,16 @@ ul li {
 	font-weight: lighter;
 } 
 
+a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #fff;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: #258FF3;
+}
+
 .gray {
 	background-color: #f8f8f8;
 }
@@ -306,16 +316,6 @@ footer {
 
 .contactwords {
 	display: block;
-}
-
-a:visited, a:link, a:active {
-	text-decoration: none;
-	color: #fff;
-	font-weight: lighter;
-}
-
-a:hover {
-	color: #258FF3;
 }
 
 .emailwords {
