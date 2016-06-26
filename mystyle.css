@@ -211,6 +211,7 @@ footer {
 	color: #ffffff;
 	line-height: 150%;
 	font-weight: lighter;
+	max-width: 35em;
 }
 
 /*.container {
