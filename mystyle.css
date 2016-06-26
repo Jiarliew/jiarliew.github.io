@@ -165,18 +165,31 @@ ul li {
 	border: 2px solid #258FF3;
 	padding: 1em 1.85em .75em 2em;
 	text-decoration: none;
-	/*color: #258FF3;*/
+	color: #258FF3;
 	font-weight: lighter;
 } 
 
+.button:hover {
+    background-color: #258ff3;
+    color: white;
+}
+
 a:visited, a:link, a:active {
 	text-decoration: none;
-	color: #fff;
+	color: #258ff3;
 	font-weight: lighter;
 }
 
 a:hover {
 	color: #258FF3;
+}
+
+ul li a:visited {
+	color: #8f8f8f;
+}
+
+ul li a:link {
+	color:#8f8f8f;
 }
 
 .gray {
@@ -193,7 +206,6 @@ footer {
 	justify-content: center;
 	padding: 2em;
 }
-
 
 
 @media screen and (min-width: 375px) {
