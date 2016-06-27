@@ -213,32 +213,14 @@ footer {
 	padding: 2em;
 }
 
-@media screen and (min-width: 375px) {
-
-
-
-}
-
 @media screen and (min-width: 768px){
 
-#personalselected {
-	margin-left: 5em;
-	margin-right: 5em;
+.ontraportcover {
+	height: 350px;
 }
 
 .description {
-	text-align: left;
 	width: 40em;
-}
-
-.icon {
-	justify-content: flex-start;
-	margin-top: 1em;
-}
-
-.icon img {
-	margin-left: 0;
-	margin-right: 2em;
 }
 
 .twoebooks {
