@@ -1,0 +1,315 @@
+/*---------------------------------------
+
+				Universal
+
+---------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Avenir" , Verdana, Helvetica;
+}
+
+@font-face {
+	font-family: "Avenir";
+	src: url("./fonts/Avenir-Roman-webfont.otf") format("opentype"),
+	url("./fonts/Avenir-Roman-webfont.eot") format("eot"),
+	url("./fonts/Avenir-Roman-webfont.ttf") format("truetype"),
+	url("./fonts/Avenir-Roman-webfont.woff") format("woff"),;
+}
+
+@font-face {
+	font-family: "Avenir";
+	font-weight: bold;
+	src: url("./fonts/Avenir-Black-webfont.otf") format("opentype")
+	url("./fonts/Avenir-Black-webfont.eot") format("eot"),
+	url("./fonts/Avenir-Black-webfont.ttf") format("truetype"),
+	url("./fonts/Avenir-Black-webfont.woff") format("woff"),;
+}
+
+@font-face {
+	font-family: "Avenir";
+	font-weight: lighter;
+	src: url("./fonts/Avenir-Light-webfont.otf") format("opentype")
+	url("./fonts/Avenir-Light-webfont.eot") format("eot"),
+	url("./fonts/Avenir-Light-webfont.ttf") format("truetype"),
+	url("./fonts/Avenir-Light-webfont.woff") format("woff"),;
+}
+
+@font-face {
+	font-family: "Avenir";
+	font-weight: italic;
+	src: url("./fonts/Avenir-Oblique-webfont.otf") format("opentype")
+	url("./fonts/Avenir-Oblique-webfont.eot") format("eot"),
+	url("./fonts/Avenir-Oblique-webfont.ttf") format("truetype"),
+	url("./fonts/Avenir-Oblique-webfont.woff") format("woff"),;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 320px) {
+
+.topheader {
+	height: 65px;
+	background-color: #3C404D;
+}
+
+.logo {
+	width: 6em;
+	position: absolute;
+	margin-left: 1.5em;
+	margin-top: 1.5em;
+}
+
+ul li {
+	list-style: none;
+	padding-left: 1.75em;
+}
+
+.nav {
+	padding: 1em;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+	height: 2.2em;
+}
+
+.contactwords {
+	display: none;
+}
+
+#emailicon {
+	width: 1.5em;
+}
+
+#phoneicon {
+	width: .75em;
+}
+
+#linkedin {
+	width: 1.25em;
+	padding-right: .25em;
+}
+
+.ontraportcover {
+	width: 100%;
+}
+
+.description {
+	text-align: center;
+	padding: 2.5em 8% 3em 8%;
+}
+
+.description h1 {
+	text-transform: uppercase;
+	color: #0d293d;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.description h3 {
+	margin-top: 2em;
+}
+
+.icon {
+	display:flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+.icon img {
+	display: block;
+	width: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.description p {
+	font-weight: lighter;
+	color: #6e6e6e;
+	margin-top: .5em;
+}
+
+.firstebook img {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 4em;
+}
+
+.secondebook img {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 3em;
+}
+
+.ebookdescription {
+	text-align: center;
+}
+
+.ebookdescription h3 {
+	margin-top: 3em;
+	font-weight: lighter;
+	font-size: 1em;
+}
+
+.ebookdescription p {
+	margin-bottom: 5em;
+	color: #6e6e6e;
+	font-weight: italic;
+	font-size: .75em;
+}
+
+.background {
+	background-color: #f8f8f8;
+}
+
+.firstposter img{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 4em;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.secondposter img {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 3em;
+}
+
+.posterdescription {
+	text-align: center;
+}
+
+.posterdescription h3 {
+	margin-top: 3em;
+	font-weight: lighter;
+	font-size: 1em;
+}
+
+.posterdescription p {
+	margin-bottom: 5em;
+	color: #6e6e6e;
+	font-weight: italic;
+	font-size: .75em;
+}
+
+footer {
+	display:flex;
+	justify-content: center;
+	padding: 2em;
+}
+
+@media screen and (min-width: 375px) {
+
+
+
+}
+
+@media screen and (min-width: 768px){
+
+#personalselected {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+.description {
+	text-align: left;
+	width: 40em;
+}
+
+.icon {
+	justify-content: flex-start;
+	margin-top: 1em;
+}
+
+.icon img {
+	margin-left: 0;
+	margin-right: 2em;
+}
+
+.twoebooks {
+	display: flex;
+	justify-content: center;
+}
+
+.firstebook img {
+	margin-top: 4em;
+	margin-right: 2em;
+}
+
+.secondebook img {	
+	margin-top: 4em;
+}
+
+.twoposters {
+	display: flex;
+	justify-content: center;
+}
+
+.firstposter img{
+	margin-top: 4em;
+	margin-right: 2em;
+}
+
+.secondposter img {
+	margin-top: 4em;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+
+#personalselected {
+	margin-left: 7em;
+	margin-right: 7em;
+}
+
+.description {
+	margin-left: 5%;
+}
+
+.firstebook img {
+	max-width: 50%;
+
+}
+
+.secondebook img {	
+	max-width: 50%;
+	margin-left: 2em;
+}
+
+.firstposter img{
+	max-width: 65%;
+	margin-top: 4em;
+	margin-right: 2em;
+}
+
+.secondposter img {
+	max-width: 65%;
+	margin-top: 4em;
+	margin-left: 2em;
+}
+
+}
+
+
+
+
+
+
+
+
