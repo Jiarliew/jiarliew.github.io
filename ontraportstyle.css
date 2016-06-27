@@ -216,7 +216,7 @@ footer {
 @media screen and (min-width: 768px){
 
 .ontraportcover {
-	height: 350px;
+	background-image: url(ontraportcoverphototablet.jpg);
 }
 
 .description {
