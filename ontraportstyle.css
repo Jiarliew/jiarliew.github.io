@@ -140,15 +140,19 @@ hr {
 	margin-top: .5em;
 }
 
+.twoebooks {
+	margin-top: 1em;
+}
+
 .firstebook img {
-	width: 75%;
+	width: 65%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 4em;
 }
 
 .secondebook img {
-	width: 75%;
+	width: 65%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 3em;
@@ -175,8 +179,12 @@ hr {
 	background-color: #f8f8f8;
 }
 
+.twoposters {
+	margin: 1em;
+}
+
 .firstposter img{
-	width: 75%;
+	width: 65%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 4em;
@@ -184,7 +192,7 @@ hr {
 }
 
 .secondposter img {
-	width: 75%;
+	width: 65%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 3em;
