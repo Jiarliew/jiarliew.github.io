@@ -162,26 +162,26 @@ ul li {
 .button {
 	text-transform: uppercase;
 	font-size: 1em;
-	border: 2px solid #258FF3;
+	border: 2px solid #3591cf;
 	padding: 1em 1.85em .75em 2em;
 	text-decoration: none;
-	color: #258FF3;
+	color: #3591cf;
 	font-weight: lighter;
 } 
 
 .button:hover {
-    background-color: #258ff3;
+    background-color: #3591cf;
     color: white;
 }
 
 a:visited, a:link, a:active {
 	text-decoration: none;
-	color: #258ff3;
+	color: #3591cf;
 	font-weight: lighter;
 }
 
 a:hover {
-	color: #258FF3;
+	color: #3591cf;
 }
 
 ul li a:visited {
@@ -328,6 +328,9 @@ footer {
 
 .contactwords {
 	display: block;
+	font-size: .85em;
+	padding-top: .2em;
+	padding-right: .75em;
 }
 
 .emailwords {
