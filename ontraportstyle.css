@@ -100,7 +100,6 @@ ul li {
 .ontraportcover {
 	width: 100%;
 }
-
 .description {
 	text-align: center;
 	padding: 2.5em 8% 3em 8%;
@@ -215,8 +214,22 @@ footer {
 
 @media screen and (min-width: 768px){
 
+.coverphoto {
+	height: 350px;
+}
+
+.coverphoto {
+	max-width: 100%;
+	height: 400px;
+	background-image: url(ontraportcoverphotomobile.jpg);
+	background-position: center -150px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .ontraportcover {
-	background-image: url(ontraportcoverphototablet.jpg);
+	display: none;
 }
 
 .description {
