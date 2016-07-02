@@ -161,12 +161,16 @@ hr {
 	margin-bottom: 2em;
 }
 
-.img1 {
+.dustimgs {
 	width: 90%;
 	padding: 0em 5% 2em 5%;
 }
 
-.img1 img {
+.img1 {
+	width: 100%;
+}
+
+.img4 {
 	width: 100%;
 }
 
