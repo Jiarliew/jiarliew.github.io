@@ -196,7 +196,7 @@ footer {
 	padding: 2em;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 374px){
 
 .description p {
 	max-width: 23em;
