@@ -240,11 +240,11 @@ footer {
 }
 
 .description p {
-	max-width: 30em;
+	max-width: 48em;
 }
 
 .dustbody {
-	max-width: 30em;
+	max-width: 48em;
 }
 
 }
@@ -312,7 +312,6 @@ ul li a:link {
 	max-width: 60%;
 	padding: 3em auto;
 }
-
 
 
 .img4 {
