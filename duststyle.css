@@ -190,12 +190,6 @@ hr {
 	width: 100%;
 }
 
-.img8 {
-	width: 30%;
-	padding-top: 0em;
-	padding: 0 35%;
-}
-
 footer {
 	display:flex;
 	justify-content: center;
@@ -347,11 +341,6 @@ ul li a:link {
 .img7 {
 	width: 72%;
 	padding: 3em 16% 0em 16%;
-}
-
-.img8 {
-	width: 20%;
-	padding: 0em 40% 3em 40%;
 }
 
 }
