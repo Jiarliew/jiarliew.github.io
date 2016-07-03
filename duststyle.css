@@ -239,41 +239,12 @@ footer {
 	display: none;
 }
 
-/*.description {
-	margin: 30px 0;
-}
-
 .description p {
-	margin: 10px auto;
-	max-width: 600px;
+	max-width: 30em;
 }
 
-.twoebooks {
-	display: flex;
-	justify-content: center;
-}
-
-.firstebook img {
-	margin-top: 4em;
-	margin-right: 2em;
-}
-
-.secondebook img {	
-	margin-top: 4em;
-}
-
-.twoposters {
-	display: flex;
-	justify-content: center;
-}
-
-.firstposter img{
-	margin-top: 4em;
-	margin-right: 2em;
-}
-
-.secondposter img {
-	margin-top: 4em;
+.dustbody {
+	max-width: 30em;
 }
 
 }
