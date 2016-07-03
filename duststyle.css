@@ -196,14 +196,16 @@ footer {
 	padding: 2em;
 }
 
-@media screen and (min-width: 374px){
+@media screen and (min-width: 375px){
 
 .description p {
 	max-width: 23em;
+	padding: 0 4%;
 }
 
 .dustbody {
 	max-width: 23em;
+	padding: 0 4%;
 }
 
 }
