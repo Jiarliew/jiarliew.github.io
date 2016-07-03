@@ -178,6 +178,10 @@ hr {
 	padding: 0 5%;
 }
 
+.img2 {
+	max-width: 100%;
+}
+
 .img4 {
 	width: 100%;
 }
@@ -329,6 +333,8 @@ ul li a:link {
 	max-width: 60%;
 	padding: 3em auto;
 }
+
+
 
 .img4 {
 	width: 72%;
