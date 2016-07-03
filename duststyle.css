@@ -168,11 +168,12 @@ hr {
 
 .dustimgs {
 	width: 90%;
-	padding: 0em 5% 2em 5%;
+	padding: 1em 5% 3em 5%;
 }
 
 .img1 {
-	width: 100%;
+	width: 90%;
+	padding: 0 5%;
 }
 
 .img4 {
