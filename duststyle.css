@@ -189,8 +189,9 @@ hr {
 }
 
 .img8 {
-	width: 60%;
-	padding: 0 20%;
+	width: 40%;
+	padding-top: .25em;
+	padding: 0 30%;
 }
 
 footer {
