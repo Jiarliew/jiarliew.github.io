@@ -142,7 +142,7 @@ hr {
 
 .dustbody {
 	margin-top: 2em;
-	padding: 0 8%;
+	/*padding: 0 auto;*/
 }
 
 .dustbody h2 {
@@ -152,13 +152,15 @@ hr {
 
 .dustbody h4 {
 	text-align: center;
-	margin-bottom: .5em;
+	padding-bottom: 1em;
 }
 
 .dustbody p {
 	color: #6e6e6e;
 	text-align: center;
-	margin-bottom: 2em;
+	padding: 0em 0em 2em 0em;
+	margin: 0 auto;
+	font-weight: lighter;
 }
 
 .dustimgs {
@@ -294,7 +296,7 @@ footer {
 	display: none;
 }
 
-.description {
+/*.description {
 	margin: 30px 0;
 }
 
@@ -332,6 +334,7 @@ footer {
 }
 
 }
+*/
 
 @media screen and (min-width: 1024px){
 
@@ -369,35 +372,51 @@ ul li a:link {
 	align-items: center;
 }
 
-#personalselected {
-	margin-left: 7em;
-	margin-right: 7em;
-}
-
 .description {
-	margin-left: 5%;
+	padding: 4em 8% 5em 8%;
 }
 
-.firstebook img {
-	max-width: 50%;
-
+.description h1 {
+	font-size: 3em;
+	padding-bottom: .5em;
 }
 
-.secondebook img {	
-	max-width: 50%;
-	margin-left: 2em;
+.dustbody h4 {
+	text-align: left;
+	max-width: 50em;
+	margin: 0 auto;
 }
 
-.firstposter img{
-	max-width: 65%;
-	margin-top: 4em;
-	margin-right: 2em;
+.dustbody p {
+	text-align: left;
+	max-width: 50em;
+	line-height: 1.75em;
 }
 
-.secondposter img {
-	max-width: 65%;
-	margin-top: 4em;
-	margin-left: 2em;
+
+.img1 {
+	max-width: 60%;
+	padding: 3em auto;
+}
+
+.img4 {
+	width: 72%;
+	padding: 3em 16% 3em 16%;
+}
+
+.img6 {
+	width: 72%;
+	padding: 3em 16% 3em 16%;
+}
+
+.img7 {
+	width: 72%;
+	padding: 3em 16% 0em 16%;
+}
+
+.img8 {
+	width: 20%;
+	padding: 0em 40% 3em 40%;
 }
 
 }

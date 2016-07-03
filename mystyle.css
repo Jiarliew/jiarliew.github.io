@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -146,6 +147,7 @@ ul li {
 .description h1 {
 	text-transform: uppercase;
 	font-weight: lighter;
+	color: #1a1a1a;
 }
 
 .date {
@@ -157,6 +159,7 @@ ul li {
 .text {
 	font-weight: lighter;
 	margin: 1.5em 8% 3em 8%;
+	line-height: 1.75em;
 }
 
 .button {
