@@ -103,18 +103,19 @@ ul li {
 
 .description {
 	text-align: center;
-	padding: 2.5em 8% 3em 8%;
+	padding: 2.5em 0;
 }
 
 .description h1 {
 	text-transform: uppercase;
-	color: #0d293d;
+	color: #1a1a1a;
 }
 
 hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 3em;
 }
 
 .description h3 {
@@ -135,19 +136,21 @@ hr {
 }
 
 .description p {
+	max-width: 18em;
 	font-weight: lighter;
 	color: #6e6e6e;
-	margin-top: .5em;
+	margin: .5em auto;
 }
 
 .dustbody {
 	margin-top: 2em;
-	/*padding: 0 auto;*/
+	max-width: 18em;
+	margin: 0 auto;
 }
 
 .dustbody h2 {
 	text-align: center;
-	margin: .75em 0em;
+	margin-bottom: .75em;
 }
 
 .dustbody h4 {
