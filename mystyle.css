@@ -207,7 +207,7 @@ ul li a:link {
 footer {
 	display:flex;
 	justify-content: center;
-	padding: 5em;
+	padding: 2em;
 	background-color: #3C404D;
 }
 
@@ -366,6 +366,10 @@ footer p{
 .ontraportimg img {
 	margin: 10%;
 	max-width: 300px;
+}
+
+footer {
+	padding: 4em;
 }
 
 
