@@ -217,7 +217,7 @@ hr {
 
 .nextscreen {
 	width: 100%;
-	height: 6em;
+	height: 4em;
 	background-color: #fff;
 	display: flex;
 }
@@ -230,7 +230,7 @@ hr {
 	color: #fff;
 	font-weight: lighter;
 	text-align: center;
-	line-height: 6em;
+	line-height: 4em;
 	letter-spacing: .25em;
 }
 
@@ -242,7 +242,7 @@ hr {
 	color: #fff;
 	font-weight: lighter;
 	text-align: center;
-	line-height: 6em;
+	line-height: 4em;
 	letter-spacing: .25em;
 }
 
