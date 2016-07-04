@@ -167,8 +167,8 @@ hr {
 }
 
 .dustimgs {
-	width: 94%;
-	padding: .75em 3% 2em 3%;
+	width: 100%;
+	padding: .75em 0 2em 0;
 }
 
 .img1 {
