@@ -155,13 +155,13 @@ hr {
 }
 
 .dustbody h4 {
-	text-align: center;
+	/*text-align: center;*/
 	padding-bottom: 1em;
 }
 
 .dustbody p {
 	color: #6e6e6e;
-	text-align: center;
+	/*text-align: center;*/
 	padding: 0em 0em 2em 0em;
 	margin: 0 auto;
 	font-weight: lighter;
