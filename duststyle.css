@@ -348,13 +348,9 @@ footer p{
 	letter-spacing: .15em;
 }
 
-.description p {
+.description  {
 	display: none;
 	max-width: 48em;
-}
-
-hr {
-    display: none;
 }
 
 .dustbody {
