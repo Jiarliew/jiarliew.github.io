@@ -97,10 +97,6 @@ ul li {
 	padding-right: .25em;
 }
 
-/*.dustcover {
-	width: 100%;
-}*/
-
 .coverphoto {	
 	background-image: url(dustcoverphoto.jpg);
 	background-position: center center;
@@ -110,6 +106,21 @@ ul li {
 }
 
 .descriptionalt {
+	/*display: none;*/
+	text-align: center;
+	color: #fff;
+	padding: 4em;
+}
+
+.descriptionalt h1 {
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: lighter;
+}
+
+.descriptionalt p {
 	display: none;
 }
 
@@ -119,6 +130,7 @@ ul li {
 }
 
 .description h1 {
+	display: none;
 	text-transform: uppercase;
 	color: #1a1a1a;
 }
@@ -324,8 +336,25 @@ footer p{
 	display: none;
 }
 
+.descriptionalt {
+	padding: 5em 0;
+}
+
+.descriptionalt p{
+	display: block;
+	max-width: 30em;
+	margin: 0 auto;
+	line-height: 1.75em;
+	letter-spacing: .15em;
+}
+
 .description p {
+	display: none;
 	max-width: 48em;
+}
+
+hr {
+    display: none;
 }
 
 .dustbody {
@@ -365,7 +394,6 @@ footer p{
 
 }
 
-
 @media screen and (min-width: 1024px){
 
 .descriptionalt {
@@ -378,6 +406,7 @@ footer p{
 	font-size: 4em;
 	text-transform: uppercase;
 	color: #fff;
+	letter-spacing: .08em;
 }
 
 .descriptionalt p {
@@ -410,6 +439,7 @@ footer p{
 }
 
 .description {
+	display: none;
 	padding: 4em 8% 5em 8%;
 }
 
