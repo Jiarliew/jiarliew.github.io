@@ -97,8 +97,20 @@ ul li {
 	padding-right: .25em;
 }
 
-.dustcover {
+/*.dustcover {
 	width: 100%;
+}*/
+
+.coverphoto {	
+	background-image: url(dustcoverphoto.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+}
+
+.descriptionalt {
+	display: none;
 }
 
 .description {
@@ -355,6 +367,27 @@ footer p{
 
 
 @media screen and (min-width: 1024px){
+
+.descriptionalt {
+	display: block;
+	text-align: center;
+	padding: 14em 0;
+}
+
+.descriptionalt h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.descriptionalt p {
+	color: #fff;
+	font-weight: lighter;
+	max-width: 40em;
+	margin: .5em auto;
+	line-height: 1.75em;
+	letter-spacing: .15em;
+}
 
 .coverphoto {
 	height: 600px;
