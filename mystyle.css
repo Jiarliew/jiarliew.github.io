@@ -207,7 +207,12 @@ ul li a:link {
 footer {
 	display:flex;
 	justify-content: center;
-	padding: 2em;
+	padding: 5em;
+	background-color: #3C404D;
+}
+
+footer p{
+	color: #fff;
 }
 
 

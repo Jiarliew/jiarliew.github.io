@@ -152,6 +152,7 @@ hr {
 .dustbody h2 {
 	text-align: center;
 	margin-bottom: .75em;
+	margin-top: .75em;
 }
 
 .dustbody h4 {
@@ -198,16 +199,55 @@ hr {
 	width: 100%;
 }
 
+.img9 {
+	width: 100%;
+}
+
 .imgdescription {
 	color: #aaaaaa;
 	font-size: .85em;
 	text-align: center;
 }
 
+a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #258ff3;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: #258FF3;
+}
+
+ul li a:visited {
+	color: #8f8f8f;
+}
+
+ul li a:link {
+	color:#8f8f8f;
+}
+
+a:visited {
+	color: #8f8f8f;
+}
+
+a:link {
+	color:#8f8f8f;
+}
+
 footer {
 	display:flex;
 	justify-content: center;
-	padding: 2em;
+	padding: 5em;
+	background-color: #3C404D;
+}
+
+footer p{
+	color: #fff;
+}
+
+#last {
+	margin-bottom: 5em;
 }
 
 @media screen and (min-width: 375px){
@@ -284,24 +324,6 @@ footer {
 	padding-right: .75em;
 }
 
-a:visited, a:link, a:active {
-	text-decoration: none;
-	color: #258ff3;
-	font-weight: lighter;
-}
-
-a:hover {
-	color: #258FF3;
-}
-
-ul li a:visited {
-	color: #8f8f8f;
-}
-
-ul li a:link {
-	color:#8f8f8f;
-}
-
 .emailwords {
 	display: flex;
 	align-items: center;
@@ -323,17 +345,21 @@ ul li a:link {
 
 .img4 {
 	width: 100%;
-	padding: 3em 0 0 0;
+	padding: 0;
 }
 
 .img6 {
 	width: 100%;
-	padding: 3em 0 0 0;
+	padding: 0;
 }
 
 .img7 {
 	width: 100%;
-	padding: 3em 0 0 0;
+	padding: 0;
+}
+
+.dustimgs {
+	padding-bottom: .5em;
 }
 
 }
