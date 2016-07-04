@@ -97,7 +97,7 @@ ul li {
 	padding-right: .25em;
 }
 
-.ontraportcover {
+.dustcover {
 	width: 100%;
 }
 
@@ -302,13 +302,13 @@ footer p{
 }
 
 .coverphoto {	
-	background-image: url(ontraportcoverphoto.jpg);
+	background-image: url(dustcoverphoto.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.ontraportcover {
+.dustcover {
 	display: none;
 }
 
@@ -355,6 +355,10 @@ footer p{
 
 
 @media screen and (min-width: 1024px){
+
+.coverphoto {
+	height: 600px;
+}
 
 .contact{
 	display: none;
