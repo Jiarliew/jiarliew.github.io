@@ -159,7 +159,6 @@ hr {
 }
 
 .dustbody p {
-	/*color: #6e6e6e;*/
 	padding: 0em 0em 2em 0em;
 	margin: 0 auto;
 	font-weight: lighter;
@@ -324,12 +323,12 @@ ul li a:link {
 
 .img4 {
 	width: 100%;
-	padding: 3em 0;
+	padding: 3em 0 0 0;
 }
 
 .img6 {
 	width: 100%;
-	padding: 3em 0;
+	padding: 3em 0 0 0;
 }
 
 .img7 {
