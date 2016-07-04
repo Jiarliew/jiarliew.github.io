@@ -340,12 +340,12 @@ footer p{
 
 a:visited, a:link, a:active {
 	text-decoration: none;
-	color: #258ff3;
+	color: #fff;
 	font-weight: lighter;
 }
 
 a:hover {
-	color: #258FF3;
+	color: #8f8f8f;
 }
 
 ul li a:visited {
@@ -392,9 +392,9 @@ ul li a:link {
 	margin-left: 2em;
 }
 
-footer {
+/*footer {
 	padding: 4em;
-}
+}*/
 
 }
 

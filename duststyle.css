@@ -211,12 +211,12 @@ hr {
 
 a:visited, a:link, a:active {
 	text-decoration: none;
-	color: #258ff3;
+	color: #fff;
 	font-weight: lighter;
 }
 
 a:hover {
-	color: #258FF3;
+	color: #8f8f8f;
 }
 
 ul li a:visited {
@@ -227,15 +227,15 @@ ul li a:link {
 	color:#8f8f8f;
 }
 
-a:visited {
-	color: #8f8f8f;
+/*a:visited {
+	color: #fff;
 }
 
 a:link {
 	color:#8f8f8f;
-}
+}*/
 
-footer {
+/*footer {
 	display:flex;
 	justify-content: center;
 	padding: 2em;
@@ -244,10 +244,41 @@ footer {
 
 footer p{
 	color: #fff;
-}
+}*/
 
 #last {
 	margin-bottom: 5em;
+}
+
+.nextscreen {
+	width: 100%;
+	height: 4em;
+	background-color: #fff;
+	display: flex;
+}
+
+.homebutton {
+	background-color: #3C404D;
+	width: 50%;
+	height: 100%;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 4em;
+	letter-spacing: .25em;
+}
+
+.ontraportbutton {
+	background-color: #0d293d;
+	width: 50%;
+	height: 100%;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 4em;
+	letter-spacing: .25em;
 }
 
 @media screen and (min-width: 375px){
@@ -306,6 +337,18 @@ footer p{
 
 .dustbody p {
 	line-height: 1.75em;
+}
+
+.nextscreen {
+	height: 6em;
+}
+
+.homebutton {
+	line-height: 6em;
+}
+
+.ontraportbutton {
+	line-height: 6em;
 }
 
 }
