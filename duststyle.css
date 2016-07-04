@@ -159,7 +159,7 @@ hr {
 }
 
 .dustbody p {
-	color: #6e6e6e;
+	/*color: #6e6e6e;*/
 	padding: 0em 0em 2em 0em;
 	margin: 0 auto;
 	font-weight: lighter;
@@ -168,7 +168,7 @@ hr {
 
 .dustimgs {
 	width: 100%;
-	padding: .75em 0 2em 0;
+	padding-top: .75em;
 }
 
 .img1 {
@@ -197,6 +197,12 @@ hr {
 
 .img7 {
 	width: 100%;
+}
+
+.imgdescription {
+	color: #aaaaaa;
+	font-size: .85em;
+	text-align: center;
 }
 
 footer {
