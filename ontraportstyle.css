@@ -246,6 +246,24 @@ hr {
 	letter-spacing: .25em;
 }
 
+a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #fff;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: #8f8f8f;
+}
+
+ul li a:visited {
+	color: #8f8f8f;
+}
+
+ul li a:link {
+	color:#8f8f8f;
+}
+
 /*footer {
 	display:flex;
 	justify-content: center;
@@ -338,23 +356,7 @@ footer p{
 	padding-right: .75em;
 }
 
-a:visited, a:link, a:active {
-	text-decoration: none;
-	color: #fff;
-	font-weight: lighter;
-}
 
-a:hover {
-	color: #8f8f8f;
-}
-
-ul li a:visited {
-	color: #8f8f8f;
-}
-
-ul li a:link {
-	color:#8f8f8f;
-}
 
 .emailwords {
 	display: flex;
