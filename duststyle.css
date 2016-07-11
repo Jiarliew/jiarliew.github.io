@@ -109,12 +109,14 @@ ul li {
 	/*display: none;*/
 	text-align: center;
 	color: #fff;
-	padding: 3em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 5em;
 }
 
 .descriptionalt h1 {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-weight: lighter;
@@ -307,15 +309,6 @@ footer p{
 
 @media screen and (min-width: 375px){
 
-.descriptionalt {
-	padding: 4em;
-}
-
-.descriptionalt h1 {
-	font-size: 4em;
-}
-
-
 .description p {
 	max-width: 23em;
 	padding: 0 4%;
@@ -347,6 +340,10 @@ footer p{
 
 .descriptionalt {
 	padding: 5em 0;
+}
+
+.descriptionalt h1 {
+	font-size: 4em;
 }
 
 .descriptionalt p{
