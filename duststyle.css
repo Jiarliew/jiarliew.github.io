@@ -307,6 +307,15 @@ footer p{
 
 @media screen and (min-width: 375px){
 
+.descriptionalt {
+	padding: 4em;
+}
+
+.descriptionalt h1 {
+	font-size: 4em;
+}
+
+
 .description p {
 	max-width: 23em;
 	padding: 0 4%;
