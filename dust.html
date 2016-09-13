@@ -9,23 +9,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<script>
-	var slideIndex = 1;
-	showDivs(slideIndex);
-
-	function plusDivs(n) {
-    	showDivs(slideIndex += n);
-	}	
-
-	function showDivs(n) {
-   	 var i;
-   	 var x = document.getElementsByClassName("mySlides");
-   	 if (n > x.length) {slideIndex = 1} 
-   	 if (n < 1) {slideIndex = x.length} ;
-    	for (i = 0; i < x.length; i++) {
-    	    x[i].style.display = "none"; 
-    	}
-   	 x[slideIndex-1].style.display = "block"; 
-	}
+	
 
 	</script>
 
@@ -128,48 +112,30 @@
 			<p>We didn't want new users to quickly associate our app with another, we decided to not use blue. This led to trying out other colors. Orange was another color that conveyed security, which was something the app needs users to believe.</p>
 			<div class="dustimgs"><img class="img7" src="image7.png"></div>
 			<p class="imgdescription">Because blue was too associated with Facebook, orange was another color that conveyed a sense of security.</p>
-			<!--<div class="dustimgs"><img class="img8" src="image8.png"></div>-->
-			<h2>Home Stretch</h2>
+			<h2>Outcome</h2>
 			<p>After knocking out the larger problems, there was still a lot of work to be done. Smaller issues still played a large part in creating a great app. Efficiently using whitepace and font weight helped to create hierarchy. Creating informative empty screens helped to guide users around the app. Simplifying the onboarding process generated more accounts created.</p>
-			<!--<h2>Before and After</h2>
-			<div class="dustimgs"><img class="img9" src="image9.png"></div>
-			<p class="imgdescription">Message tab.</p>-->
-			<div class="slideshow-container">
-	  			<div class="mySlides fade">
-	    		   <div class="numbertext">1 / 3</div>
-				   <img src="image9.png" style="width:100%">
-				   <div class="text">Caption Text</div>
-	 			</div>
-
-				<div class="mySlides fade">
-				   <div class="numbertext">2 / 3</div>
-				   <img src="image10.png" style="width:100%">
-				   <div class="text">Caption Two</div>
-				</div>
-
-				<div class="mySlides fade">
-				   <div class="numbertext">3 / 3</div>
-				   <img src="image11.png" style="width:100%">
-				   <div class="text">Caption Three</div>
-				</div>
-
-			 	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			 	<a class="next" onclick="plusSlides(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span> 
-			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
+			
+			<div class="container">
+	  			<div data-am-gallery>
+			    <!-- Radio -->
+			    <input type="radio" name="gallery" id="img-1" checked />
+			    <input type="radio" name="gallery" id="img-2" />
+			    <input type="radio" name="gallery" id="img-3" />
+			    <!-- Images -->
+			    <div class="images">
+			      <div class="image" style="background-image: url(image9.png);"></div>
+			      <div class="image" style="background-image: url(image10.png);"></div>
+			      <div class="image" style="background-image: url(image11.png);"></div>
+			    </div>
+			    <!-- Navigation -->
+			    <div class="navigation">
+			      <label class="dot" for="img-1"></label>
+			      <label class="dot" for="img-2"></label>
+			      <label class="dot" for="img-3"></label>
+			    </div>
+			  </div>		  
 			</div>
 
-			<!--<img class="mySlides" src="image9.png">
-			<img class="mySlides" src="image10.png">
-			<img class="mySlides" src="image11.png">
-			<img class="mySlides" src="image12.png">-->
-			<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
-			<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
 			<p id="last">After many iterations and testing all over the app, the redesign was complete. There were many changes to the app, from onboarding, to icons, to colors, and even completely changing the name and logo. Without user testing, we never could've spotted or corrected many of the existing problems. Utilizing user test was a fantastic way to help improve our app.</p>
 		</div>
 		
