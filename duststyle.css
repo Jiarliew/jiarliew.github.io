@@ -305,7 +305,9 @@ footer p{
 
 
 
-
+.container {
+	margin-bottom: .25em;
+}
 
 [data-am-gallery] {
  position: relative;
@@ -480,6 +482,10 @@ footer p{
 	line-height: 6em;
 }
 
+[data-am-gallery] {
+ height: 650px;
+}
+
 }
 
 @media screen and (min-width: 1024px){
@@ -560,9 +566,18 @@ footer p{
 	padding-bottom: .5em;
 }
 
+.container {
+	margin-bottom: 1em;
+}
+
 footer {
 	padding: 4em;
 }
+
+[data-am-gallery] {
+ height: 780px;
+}
+
 
 }
 
