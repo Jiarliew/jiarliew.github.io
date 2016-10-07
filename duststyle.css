@@ -189,11 +189,12 @@ hr {
 
 .dustbody h4 {
 	padding-bottom: 1em;
+	color: #333;
 	font-size: 1.25em;
 }
 
 .dustbody p {
-	padding: 0em 0em 2em 0em;
+	padding: 0em 0em 3em 0em;
 	margin: 0 auto;
 	font-weight: lighter;
 	line-height: 1.75em;
@@ -202,8 +203,7 @@ hr {
 
 .dustimgs {
 	width: 100%;
-
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 }
 
 .img1 {
@@ -242,6 +242,7 @@ hr {
 
 .finalimg {
 	max-width: 100%;
+	padding-bottom: 3em;
 }
 
 a:visited, a:link, a:active {
