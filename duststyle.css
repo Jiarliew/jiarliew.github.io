@@ -122,6 +122,11 @@ ul li {
 	font-weight: lighter;
 }
 
+.descriptionalt h3 {
+	font-weight: lighter;
+	color: #999;
+}
+
 .descriptionalt p {
 	display: none;
 }
@@ -134,7 +139,6 @@ ul li {
 .description h1 {
 	display: none;
 	text-transform: uppercase;
-	color: #1a1a1a;
 }
 
 hr {
@@ -164,7 +168,7 @@ hr {
 .description p {
 	max-width: 18em;
 	font-weight: lighter;
-	color: #6e6e6e;
+	color: #636363;
 	margin: .5em auto;
 	line-height: 1.75em;
 }
@@ -179,10 +183,13 @@ hr {
 	text-align: center;
 	margin-bottom: .75em;
 	margin-top: .75em;
+	color: #333;
+	font-size: 1.75em;
 }
 
 .dustbody h4 {
 	padding-bottom: 1em;
+	font-size: 1.25em;
 }
 
 .dustbody p {
@@ -190,11 +197,13 @@ hr {
 	margin: 0 auto;
 	font-weight: lighter;
 	line-height: 1.75em;
+	color: #636363;
 }
 
 .dustimgs {
 	width: 100%;
-	padding-top: .75em;
+
+	padding-bottom: 2em;
 }
 
 .img1 {
@@ -229,6 +238,10 @@ hr {
 	color: #aaaaaa;
 	font-size: .85em;
 	text-align: center;
+}
+
+.finalimg {
+	max-width: 100%;
 }
 
 a:visited, a:link, a:active {
@@ -269,7 +282,7 @@ footer p{
 }*/
 
 #last {
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 .nextscreen {
@@ -302,8 +315,6 @@ footer p{
 	line-height: 4em;
 	letter-spacing: .25em;
 }
-
-
 
 .container {
 	margin-bottom: .25em;
@@ -409,6 +420,11 @@ footer p{
 
 }
 
+
+
+
+
+
 @media screen and (min-width: 768px){
 
 .coverphoto {
@@ -434,10 +450,14 @@ footer p{
 	font-size: 4em;
 }
 
+.descriptionalt h3 {
+	font-size: 1.5em;
+}
+
 .descriptionalt p{
 	display: block;
-	max-width: 30em;
-	margin: 0 auto;
+	max-width: 36em;
+	margin: 1em auto;
 	line-height: 1.75em;
 	letter-spacing: .15em;
 }
@@ -466,10 +486,6 @@ footer p{
 	margin: 0 auto;
 }
 
-.dustbody p {
-	line-height: 1.75em;
-}
-
 .nextscreen {
 	height: 6em;
 }
@@ -488,6 +504,9 @@ footer p{
 
 }
 
+
+
+
 @media screen and (min-width: 1024px){
 
 .descriptionalt {
@@ -504,11 +523,11 @@ footer p{
 }
 
 .descriptionalt p {
+	font-size: 1.15em;
 	color: #fff;
 	font-weight: lighter;
 	max-width: 40em;
-	margin: .5em auto;
-	line-height: 1.75em;
+	line-height: 1.5em;
 	letter-spacing: .15em;
 }
 
@@ -542,9 +561,17 @@ footer p{
 	padding-bottom: .5em;
 }
 
-
 .dustbody {
 	max-width: 60em;
+}
+
+.dustbody h2 {
+	font-size: 2em;
+}
+
+.dustbody p {
+	font-weight: lighter;
+	font-size: 1.25em;
 }
 
 .img4 {
@@ -560,10 +587,6 @@ footer p{
 .img7 {
 	width: 100%;
 	padding: 0;
-}
-
-.dustimgs {
-	padding-bottom: .5em;
 }
 
 .container {
