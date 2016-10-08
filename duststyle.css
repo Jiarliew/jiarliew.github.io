@@ -214,6 +214,10 @@ hr {
 	max-width: 100%;
 }
 
+.companal {
+	max-width: 100%;
+}
+
 .img3 {
 	max-width: 100%;
 }
@@ -485,6 +489,12 @@ footer p{
 
 .dustbody h4 {
 	margin: 0 auto;
+	padding: 0 6%;
+}
+
+.dustbody p {
+	padding-left: 6%;
+	padding-right: 6%;
 }
 
 .nextscreen {
