@@ -146,20 +146,21 @@ ul li {
 
 .description h1 {
 	text-transform: uppercase;
-	font-weight: lighter;
-	color: #1a1a1a;
+	font-weight: bold;
+	color: #333;
 }
 
 .date {
-	font-size: .85em;
+	font-size: 1em;
 	font-weight: lighter;
-	color: #606060;
+	color: #c2c2c2;
 }
 
 .text {
 	font-weight: lighter;
-	margin: 1.5em 8% 3em 8%;
+	margin: 1.25em 8% 3em 8%;
 	line-height: 1.75em;
+	color: #636363;
 }
 
 .button {
@@ -371,6 +372,10 @@ footer p{
 .emailwords {
 	display: flex;
 	align-items: center;
+}
+
+.text {
+	font-size: 1.25em;
 }
 
 .cyberdustimage {

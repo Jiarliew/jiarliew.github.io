@@ -97,9 +97,43 @@ ul li {
 	padding-right: .25em;
 }
 
-.ontraportcover {
-	width: 100%;
+.coverphoto {	
+	background-image: url(ontraportcoverphoto.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
 }
+
+.descriptionalt {
+	/*display: none;*/
+	text-align: center;
+	color: #fff;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 5em;
+}
+
+.descriptionalt h1 {
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: lighter;
+}
+
+.descriptionalt h3 {
+	font-weight: lighter;
+	color: #999;
+}
+
+.descriptionalt p {
+	display: none;
+}
+
+/*.ontraportcover {
+	width: 100%;
+}*/
 
 .description {
 	text-align: center;
@@ -117,9 +151,6 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.description h3 {
-	margin-top: 2em;
-}
 
 .icon {
 	display:flex;
@@ -293,12 +324,28 @@ footer p{
 }
 
 .description {
-	margin: 30px 0;
+	display: none;
 }
 
 .description p {
 	margin: 10px auto;
 	max-width: 600px;
+}
+
+.descriptionalt {
+	padding: 5em 0;
+}
+
+.descriptionalt h1 {
+	font-size: 4em;
+}
+
+.descriptionalt p{
+	display: block;
+	max-width: 36em;
+	margin: 1em auto;
+	line-height: 1.75em;
+	letter-spacing: .15em;
 }
 
 .twoebooks {
@@ -345,6 +392,32 @@ footer p{
 
 @media screen and (min-width: 1024px){
 
+.coverphoto {
+	height: 600px;
+}
+
+.descriptionalt {
+	display: block;
+	text-align: center;
+	padding: 14em 0;
+}
+
+.descriptionalt h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: .08em;
+}
+
+.descriptionalt p {
+	font-size: 1.15em;
+	color: #fff;
+	font-weight: lighter;
+	max-width: 40em;
+	line-height: 1.5em;
+	letter-spacing: .15em;
+}
+
 .contact{
 	display: none;
 }
@@ -355,7 +428,6 @@ footer p{
 	padding-top: .2em;
 	padding-right: .75em;
 }
-
 
 
 .emailwords {

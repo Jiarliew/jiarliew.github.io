@@ -111,7 +111,7 @@ ul li {
 	color: #fff;
 	padding-left: 3em;
 	padding-right: 3em;
-	padding-top: 5em;
+	padding-top: 4em;
 }
 
 .descriptionalt h1 {
@@ -436,17 +436,6 @@ footer p{
 	height: 350px;
 }
 
-.coverphoto {	
-	background-image: url(dustcoverphoto.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.dustcover {
-	display: none;
-}
-
 .descriptionalt {
 	padding: 5em 0;
 }
@@ -493,8 +482,10 @@ footer p{
 }
 
 .dustbody p {
+	font-size: 1.25em;
 	padding-left: 6%;
 	padding-right: 6%;
+	font-weight: lighter;
 }
 
 .nextscreen {
@@ -578,11 +569,6 @@ footer p{
 
 .dustbody h2 {
 	font-size: 2em;
-}
-
-.dustbody p {
-	font-weight: lighter;
-	font-size: 1.25em;
 }
 
 .img4 {

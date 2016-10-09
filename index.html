@@ -1,104 +1,19 @@
 <!DOCTYPE html>
-<html>
-<!---->
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<title>
-		Jiar Liew | Work
-	</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<title>demo.sketch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script> 
 </head>
-
 <body>
-
-	<div class="container">
-		<div class="backgroundimage">
-			<div class="topheader">
-
-				<div class=leftlogo>
-					<a href="index.html"><img src="personallogo.png" class="logo"></a>
-				</div>
-
-				<div class="contact">	
-					<ul class="nav">
-						<li>
-							<a href="mailto:jiar.liew@gmail.com"><img src="emailicon.png" id="emailicon">
-							</a>
-						</li>
-						<li>
-							<a href="tel:626-656-0414"><img src="phoneicon.png" id="phoneicon">
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/jiarliew"><img src="linkedinicon.png" id="linkedin">
-							</a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="contactwords">	
-					<ul class="nav">
-						<li>
-							<a href="mailto:jiar.liew@gmail.com" class="words">Jiar.Liew@gmail.com 
-							</a>
-						</li>
-						<li>
-							<a href="tel:626-656-0414" class="words"> 626.656.0414
-							</a>
-						</li>
-						<li>	
-							<a href="https://www.linkedin.com/in/jiarliew" class="words">LinkedIn
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="mainheader">
-				<img src="profilephoto.png" id="profilephoto">
-				<div>
-					<h2>UI UX Designer</h2>
-					<p> I am a self-taught multidisciplinary designer based in Los Angeles. I have a passion for design, and spend most of my time designing in one form or another. If I am not working on designing apps, I'll be spending time shooting videos, taking photos, or coding websites. I embrace challenges and push myself to be the best I can be.</p>
-				</div>
-				<div class="resumebutton">
-					<a href="resume.pdf" class="button">View Resume</a>
-				</div>
-			</div>
-
-			<div class="viewwork">
-					<img class="arrow" src="viewwork.png">
-			</div>
-
-		</div>
-
-		<div class="white">
-			<div class="cyberdustimage"><img src="cyberdustiphone.png">
-			</div>
-			<div class="description" id="cyberdustright">
-				<h1>Dust</h1>
-				<p class="date">July 2015 - Present</p>
-				<p class="text">UI UX designer for Dust (formerly known as Cyber Dust). Worked on designing app interfaces and converted mocks onto multiple platforms. Created high-fidelity prototypes for user testing.</p>
-				<a href="dust.html" class="button">More Details</a>
-			</div>
-		</div>
-
-		<div class="gray">
-			<div class="ontraportimg"><img src="ontraportebook.png">
-			</div>
-			<div class="description" id="ontraportleft">
-				<h1>Ontraport</h1>
-				<p class="date">January - June 2015</p>
-				<p class="text">Interned as a graphic designer working with multiple departments. Working on various projects such as eBook covers and posters. </p>
-				<a href="ontraport.html" class="button">More Details</a>
-			</div>
-		</div>
-
-		<div class="nextscreen">
-			<a class="contactbutton" href="mailto:jiar.liew@gmail.com"">CONTACT ME</a>
-		</div>
-		
-	</div>
+<a-scene>
+<a-curvedimage src="img/ui.png" radius="4" theta-length="360" height="12" scale=".3 .3 .3"></a-curvedimage>
+<a-sky src="img/background.png"><a-root><a-entity geometry="primitive: sphere" material="shader: flat; src: url(img/background.png);" scale="1 1 1"></a-entity></a-root></a-sky>
+<a-entity camera look-controls>
+<a-entity cursor="fuse: true;" position="0 0 -1" scale=".01 .01 .01" geometry="primitive: ring" material="color: #fff; shader: flat">
+</a-entity>
+</a-entity>
+</a-scene>
 </body>
-
 </html>
-
