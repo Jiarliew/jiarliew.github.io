@@ -115,6 +115,7 @@ ul li {
 
 .mainheader p {
 	display: none;
+	font-weight: lighter;
 }
 
 .resumebutton {
@@ -151,7 +152,7 @@ ul li {
 }
 
 .date {
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: lighter;
 	color: #c2c2c2;
 }
@@ -291,7 +292,7 @@ footer p{
 .mainheader p {
 	padding: .25em 4em 1.75em 4em;
 	line-height: 150%;
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 .button {
