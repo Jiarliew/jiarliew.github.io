@@ -17,22 +17,30 @@
 	    </a-assets>
 
      	<a-camera>
-     		<a-cursor></a-cursor>
-     	</a-camera>
+          <a-cursor id="cursor">
+            <a-animation begin="click" easing="ease-in" attribute="scale"
+                          fill="backwards" from="0.1 0.1 0.1" to="1 1 1" dur="150"></a-animation>
+            <a-animation begin="cursor-fusing" easing="ease-in" attribute="scale"
+                           from="1 1 1" to="0.1 0.1 0.1" dur="1500"></a-animation>
+           </a-cursor>
+      </a-camera>
 
-        <!--<a-curvedimage src="#" color="red" radius="5.7" theta-length="180" height="9"
-                     rotation="0 90 0" scale="1.2 1.2 1.2"></a-curvedimage>
-      <a-curvedimage src="#photo2" radius="5.7" theta-length="17" height=".36"
-                     opacity="0.2" rotation="0 250 0" position="0 2 0"></a-curvedimage>-->
-      <a-curvedimage src="#photo3" radius="5.7" theta-length="72" height="2.6"
-                     rotation="0 80 0" position="0 0.7 0" scale="0.6 0.6 0.6"></a-curvedimage>
-      <a-curvedimage src="#photo4" radius="6.5" theta-length="72" height="3"
-                     rotation="0 -170 0" position="-1 1.25 0" scale="0.8 0.8 0.8">
-                    <a-animation attribute="scale" begin="click" to="4 4 4"></a-animation>
-        </a-curvedimage>
+      <!--<a-animation attribute="scale" begin="click" to="1.5 1.5 1.5"></a-animation>-->
+      <a-plane 
+        src="#photo1" shader="flat" height="4" width="2" position="0 1.75 -5" rotation="0 0 0">
+      </a-plane>
 
-      <a-image position="0 -5 0" src="#shadow2" rotation="-90 0 0" scale="6 6 6"></a-image>
-      <a-sky color="#fff"></a-sky>
+      <a-plane 
+        src="#photo2" shader="flat" height="4" width="2" position="-4 1.75 -4.75" rotation="0 35 0">
+      </a-plane>
+
+      <a-plane 
+        src="#photo3" shader="flat" height="4" width="2" position="4 1.75 -4.75" rotation="0 -35 0">
+      </a-plane>
+  
+      <a-plane 
+        src="#photo4" shader="flat" height="4" width="2" position="7 1.75 -2" rotation="0 -60 0">
+      </a-plane>
 
         <!--
      	<a-sky color="#E2F6FB"></a-sky>
