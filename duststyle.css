@@ -105,12 +105,17 @@ ul li {
 	height: 200px;
 }
 
+.vr img {
+	width: 3em;
+	padding-top: .5em;
+}
+
 .descriptionalt {
 	/*display: none;*/
 	text-align: center;
 	color: #fff;
-	padding-left: 3em;
-	padding-right: 3em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	padding-top: 4em;
 }
 
@@ -437,7 +442,7 @@ footer p{
 }
 
 .descriptionalt {
-	padding: 5em 0;
+	padding: 3em 0;
 }
 
 .descriptionalt h1 {
@@ -452,8 +457,13 @@ footer p{
 	display: block;
 	max-width: 36em;
 	margin: 1em auto;
-	line-height: 1.75em;
+	line-height: 1.5em;
 	letter-spacing: .15em;
+}
+
+.vr img {
+	padding-top: 0em;
+	width: 4em;
 }
 
 .description  {
@@ -531,6 +541,11 @@ footer p{
 	max-width: 40em;
 	line-height: 1.5em;
 	letter-spacing: .15em;
+}
+
+.vr img {
+	padding-top: 1.5em;
+	width: 4em;
 }
 
 .coverphoto {
