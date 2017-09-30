@@ -9,7 +9,13 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<script>
-	
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105245518-1', 'auto');
+  ga('send', 'pageview');
 
 	</script>
 
@@ -21,103 +27,82 @@
 		<div class="topheader">
 
 			<div class=leftlogo>
-					<a href="index.html"><img src="personallogo.png" class="logo"></a>
-			</div>
-
-			<div class="contact">	
-				<ul class="nav">
-					<li>
-						<a href="mailto:jiar.liew@gmail.com"><img src="emailicon.png" id="emailicon">
-							</a>
-					</li>
-					<!--<li>
-						<a href="tel:626-656-0414"><img src="phoneicon.png" id="phoneicon">
-							</a>
-					</li>-->
-					<li>
-						<a href="https://www.linkedin.com/in/jiarliew"><img src="linkedinicon.png" id="linkedin">
-							</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="contactwords">	
-				<ul class="nav">
-					<li>
-						<a href="mailto:jiar.liew@gmail.com" class="words">Jiar.Liew@gmail.com 
-							</a>
-					</li>
-					<!--<li>
-						<a href="tel:626-656-0414" class="words"> 626.656.0414
-							</a>
-					</li>-->
-					<li>	
-						<a href="https://www.linkedin.com/in/jiarliew" class="words">LinkedIn
-							</a>
-					</li>
-				</ul>
-			</div>	
-		</div>
-
-		<div class="coverphoto">
-			<div class="descriptionalt">
-				<h1>Dust</h1>
-				<h3>(Formally known as Cyber Dust)</h3>
-				<p>Dust is a private mobile messenging application. Send public post to followers, or send secure messages that can be deleted permanently on the other persons device.
-				</p>
-				<a class="vr" href="vr.html"><img src="vr.png"></a>
+			<a href="index.html" class="button">JY</a>		
 			</div>
 		</div>
-
-		<div class="description">
-				<h1>Dust</h1>
-				<p>Dust is a private mobile messenging application. Send public post to followers, or send secure messages that can be deleted permanently on the other persons device.
-				</p>
+				
+		<div class="coverphoto">	
+			<!--<a class="vr" href="vr.html"><img src="vr.png"></a>-->
 		</div>
 
-		<hr/>
 			
 		<div class="dustbody">
-			<h2>Redesigning Dust</h2>
-			<p>After a couple years of constantly adding features, the app eventually became filled with all kinds of of features that didn't relate. The app felt cluttered with no correlation or visual hierarchy. As a result, users were getting confused and lost, ultimately leading to them leave the app for good. The task to completely redesign from the ground up was a challenge, but a much needed one. Throwing away old habits, the new app would be designed centered on our users.</p>
-			<h2>Step One: Discovery</h2>
+			<div class="title">
+				<div class="h1"><h1>Dust</h1></div>
+				<div><a class="vr" href="vr.html"><img src="vr.png"></a></div>
+			</div>
+				
+			<h4>Introduction</h4>
+			<p>Dust is a messaging app that keeps messages anonymous and secure, so no one has a record of what you say. Send messages that can be deleted on all devices, and never worry about your messages being traced back to you.
+			</p>
+			<h4>Challenge</h4> 
+			<p>There was a good amount of new users coming to try the app due to publicity from Mark Cuban, but there was little interest for people to use it. Our team was tasked to find out the problem and redesign the app.</p>
+			<h4>My Role</h4> 
+			<p id="bullet">Worked alongside a team of designers and developers to come up with new designs, talk to users, test prototypes, discuss future projects, etc. Some highlights include:
+			</p>
+			<ul>
+				<li>Completely redesigned the mobile app.</li>
+				<li>Designed a website for users to discover more users.</li>
+				<li>Create desktop app to complement the mobile app.</li>
+				<li>Implement Scrum to optimize the design process.</li>
+			</ul>
+			<h3>Step One: Discovery</h3>
 			<h4>Survey</h4> 
-			<p>Surveys were sent out to users to ask what they liked and disliked about the app. After gathering and reading all the responses, results showed that the UI was a glaring problem. It was confusing all around, from the navigation down to the uncoordinated colors.</p>
-			<h4>Initial User Testing</h4>
-			<p>Viewing users interact with the app provided amazing insight to additional problems that we never would have gathered from surveys alone. The amount of problems in the end were astonishing, and we had a lot of work to do. Major pain points included a confusing navigation, unclear terminology, ambiguous icons, lack of hierarchy, and the list goes on. These issues caused our users to have a difficult time navigating the app.</p>
+			<p>Surveys were given to existing users to see what was good or bad about the app. After reading around 900 responses, we narrowed down the main problems. What the survey showed was that the UI was confusing, from a complicated onboarding process to a puzzling navigation.</p>
+			<div class="dustimgs" id="shadow"><img class="surveyimg" src="dustsurvey.png"></div>
+			<h4>User Test</h4>
+			<p>Seeing firsthand how users interact with the app gave us insight to understand why users were having problems.  Major pain points include a confusing navigation, unclear terminology, ambiguous icons, an excess amount of unnecessary colors, and more.</p>
 			<div class="dustimgs"><img class="img1" src="image1.png"></div>
-			<!--<p class="imgdescription">Pain points discovered from user test and surveying.</p>-->
-			<h4>Prioritizing</h4>
-			<p>When creating a list of major pain points, small problems were also discovered. Even after the major problems were fixed, we knew that the amount of small problems could cause users to run away. Prioritizing pain points helped the design team to focus on the bigger issues while keeping the smaller problems in mind for later.</p>
-			<div class="dustimgs"><img class="img2" src="image2.png"></div>
+			<h3>Step Two: Research</h3>
+			
 			<h4>Competitive Analysis</h4>
-			<p>A great way to narrow down the important features was to create a competitive anaylsis. By comparing similar apps, we could focus on features that users needed the most.</p>
-			<div class="dustimgs"><img class="companal" src="companalysis.png"></div>
+			<p>By researching similar apps, we could see what users needed or wanted the most. There weren't many apps similar to ours, and the existing ones were relatively new to the industry. We were still able to do enough research on these apps to find out what was and wasn't working.</p>
+			<div class="dustimgs" id="shadow"><img class="companal" src="companalysis.png"></div>
+			<h4>Prioritizing</h4>
+			<p>With the overwhelming amount of changes needed to be made, we had to set our priorities straight. Too many minor pain points could just as easily cause users to turn away. Prioritizing helped us keep in the mind the smaller problems during the ongoing process.</p>
+			<div class="dustimgs"><img class="img2" src="image2.png"></div>
+			<h4>Wireframe</h4>
+			<p>After we gathered enough data, we set out create a wireframe to help us plan better. We were able to complete a rough sketch of what was required, and not have to worry about adding new screens later. It helped us reduce the amount of unnecessary screens as well as dead-ends.</p>
 			<!--<p class="imgdescription">Prioritizing pain points from high to low.</p>-->
-			<h2>Step Two: Designing</h2>
+		</div>
+
+			<div class="wireframeimgdiv">
+			<img class="wireframeimg" src="wireframe.png">
+			</div>
+
+		<div class="dustbody">
+			<h3>Step Three: Designing</h3>
 			<h4>Navigation</h4>
 			<p>The first major change was to create a central navigation. Users were confused with having to navigate with two bottom buttons and three top tabs. We tested various design iterations to find the one with the least pain points according to the users. In the end, a bottom navigation was the most effective. Condensing only the most important tabs to the navigation, users were able to navigate much more seamlessly.</p>
 			<div class="dustimgs"><img class="img3" src="image3.png"></div>
 			<!--<p class="imgdescription">User testing different navigation styles.</p>-->
 			<h4>Naming Convention</h4>
-			<p>Although users were starting to understand our app a lot faster, there was still room for improvement. Users were still struggling to understand what certain tabs meant. The icons were too ambiguous with branded names we made up, names such as "dust" and "blast". This led to users having to tap around the navigation a couple more times than we liked. Creating conventional names and icons was the next problem to solve. We questioned users with various tab names to see what users would make of it. It was quickly discovered that the simpler terms were easier to understand.</p>
+			<p>Another holdup was the amount of time users spent trying to understand what certain terms meant, terms such as "dust" and "blast." The icons we used didn't help as well, most of them were ambiguous. We tested many variations of words and icons only to discover that it was better to keep things simple. "Dust" changed to "Messages" and Blast became "Public." These small changes helped users navigate the app much easier.</p> 
 			<div class="dustimgs"><img class="img4" src="image4.png"></div>
-			<!--<p class="imgdescription">Users had a hard time understanding where tabs lead to with the current naming conventions</p>-->
-			<!--<div class="dustimgs"><img class="img5" src="image5.png"></div>-->
 			<h4>Colors</h4>
-			<p>Multiple colors schemes made the app inconsistent, leaving users to wonder what areas were tappable. Using one color scheme would help unify the app, while being able to put emphasis on important items that help guide the user. The apps main feature was to provide the user with a sense of trust and security. The color blue helped evoke both those emotions/feelings. We tested many different shades of blue, and other similar colors. After receiving feedback from our users, we realized that most of them instantly connected the app to Facebook.</p>
+			<p>Having multiple color schemes caused the app to look like a mess. Colors clashed all over the screen, resulting in users not knowing where to focus their attention or what items were clickable. By using one color, the app was able to reduce noise and distraction.</p>
 			<div class="dustimgs"><img class="img6" src="image6.png"></div>
-			<!--<p class="imgdescription">The color blue conveys trust.</p>-->
-			<p>Since we didn't want new users to associate our app with another, we decided to not use blue. This led to trying out other colors. Orange was another color that portrayed security, so we tested multiple shades of orange, and realized that it was a fantastic color to use. Orange was an uncommon color for apps, and users didn't associate that color to anything else.</p>
-			<div class="dustimgs"><img class="img7" src="image7.png"></div>
-			<!--<p class="imgdescription">Because blue was too associated with Facebook, orange was another color that conveyed a sense of security.</p>-->
-			<p>We used the color orange very sparingly throughout the app. To help create a sense of hierarchy, we only colored what we wanted to emphasize that would help draw the users attention. A color palette was also created for future projects to keep from changing.</p>
-			<!--<h4>Hierarchy</h4>
-			<p>To keep things consistent at the moment and in the future, creating a color palette was needed so we wouldn't accidently use too many shades of orange. Another way we created hierarchy was to ke</p>-->
-			<h2>Outcome</h2>
-			<p>After knocking out the "larger" problems, there was still work to be done. Resolving minor issues still played a part in creating a user friendly app. Efficiently using whitepace and different font weights helped to create hierarchy in the app. Creating informative empty screens helped to redirect users around instead of getting stuck. Simplifying the onboarding process by making it quicker to sign up, generated more accounts created, and much less frustrated users.</p>
-			
-			<!--<p class="imgdescription">Before and after.</p>-->
+			<p>Our thought process was to figure out what emotions we wanted to convey when a user interacted with our app. To us, it was important to let users feel safe and secure when sending private messages. Blue was a great color to help reinforce those emotions. What we realized when testing with users was that blue was quickly associated with Facebook. People use Facebook to connect with friends and family publicly, so we decided it was best to not remind people of that. Our second best color was orange which also conveyed a sense of security. After testing with users, we saw that orange by comparison was an uncommon color, but also well received.</p>
+			<div class="dustimgs"><img src="image7.png"></div>
+			<h4>Prototyping & Testing</h4>
+			<p>We created prototypes for each new feature, and was tested multiple times throughout the process. Getting feedback from users before finalizing designs was critical in our design process.</p>
+			<div class="dustimgs" id="shadow"><img class="img6" src="dusttest.png"></div>
+			<h3>Outcome</h3>
+			<p>After many interations and test, the major pain points in the redesign were fixed and accounted for. Dust was a completely different looking app, starting from a new color scheme to new logo. </p>
+			<div>
+			<img class="imgstats" src="imgstats.png">
+			</div>
+			<p>Users responded positively to the newly refreshed app. Clicks generated from users grew <b class="bold">5x</b>, conversion rates increased <b class="bold">20%</b>, and user retention rose about <b class="bold">7x</b>. Engagement was at an all-time high, and drop-off rate with onboarding decreased. </p>
 		</div>
 
 		<div class="finalimgdiv">
@@ -125,17 +110,48 @@
 		</div>
 
 		<div class="dustbody">
-		<p id="last">After many iterations and many tests, the redesign was complete. Dust seemed like the totally different app than before. Every part of the app was completely overhauled, from the icons, to the colors, and even changing the name and logo. Without receiving input from our users, we never would have gotten this far.</p>
+			<h3>Moving Forward</h3>
+			<div style="width:100%;height:0px;position:relative;padding-bottom:62.500%;"><iframe src="https://streamable.com/s/9yrg3/fuxsin?muted=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+			<!--<video controls poster="billions-ph.png" >
+  				<source src="billions.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>-->
+			<p class="videodesc">App being used in the tv show <i>Billions</i>. Axe communicates with his spy using Dust to keep their messages confidential.</p>
+			<!--<p>He finds Foley talking to Chuck and his dad, which revealed why the Sandicot deal fell apart.</p>-->
+			<p id="last">There was still more to be done after fixing the larger problems. We had many smaller issues to take care. Efficiently using whitespace and different font weights to help define hierarchy. Creating informative empty state screens to stop users from getting stuck. Simplifying the onboarding process by reducing the amount of steps to helped reduce dropoff rate. Throughout the next couple months, we continued to test our designs with users to make sure each and every update was headache free. </p>
+			
 		</div>
 		
-		<div class="nextscreen">
-			<a class="homebutton" href="index.html">HOME</a>
-			<a class="ontraportbutton" href="ontraport.html">ONTRAPORT</a>
+		<div class="home">
+			<a href="index.html" class="btmbutton">Home</a>
 		</div>
 
-		<!--<footer>
-			<a href="mailto:jiar.liew@gmail.com" class="words">Home</a>
-		</footer>-->
+		<div class="btmcontact">
+			<div class="contact">	
+				<ul class="btmnav">
+					<li class="leftbtmicon">
+						<a href="mailto:jiar.liew@gmail.com"><img src="emailicongray.png" id="emailicon"></a>
+					</li>
+					<li>
+						<a href="tel:626-656-0414"><img src="phoneicongray.png" id="phoneicon"></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/jiarliew"><img src="linkedinicongray.png" id="linkedin"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/jaywhy"><img src="fbicongray.png" id="fb"></a>
+					</li>
+					<li>
+						<a href="https://dribbble.com/smallfries"><img src="dribbbleicongray.png" id="dribbble"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="lastline">
+		<p>Site designed and coded by me.</p>
+		</div>
+
 	</div>
 
 </body>

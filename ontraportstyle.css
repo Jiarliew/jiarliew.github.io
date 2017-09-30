@@ -10,42 +10,63 @@
 }
 
 body {
-	font-family: "Avenir" , Verdana, Helvetica;
+	font-family: "proxima_nova" , Verdana, Helvetica;
 }
 
 @font-face {
-	font-family: "Avenir";
-	src: url("./fonts/Avenir-Roman-webfont.otf") format("opentype"),
-	url("./fonts/Avenir-Roman-webfont.eot") format("eot"),
-	url("./fonts/Avenir-Roman-webfont.ttf") format("truetype"),
-	url("./fonts/Avenir-Roman-webfont.woff") format("woff"),;
+    font-family: 'proxima_nova';
+    font-weight: 400;
+    src: url('./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+    src: url('./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
 }
 
 @font-face {
-	font-family: "Avenir";
-	font-weight: bold;
-	src: url("./fonts/Avenir-Black-webfont.otf") format("opentype")
-	url("./fonts/Avenir-Black-webfont.eot") format("eot"),
-	url("./fonts/Avenir-Black-webfont.ttf") format("truetype"),
-	url("./fonts/Avenir-Black-webfont.woff") format("woff"),;
+    font-family: 'proxima_nova';
+    src: url('./fonts/Mark Simonson - Proxima Nova Alt Black-webfont.eot');
+    src: url('./fonts/Mark Simonson - Proxima Nova Alt Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Black-webfont.woff2') format('woff2'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Black-webfont.woff') format('woff'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Black-webfont.ttf') format('truetype'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Black-webfont.svg#proxima_nova_altblack') format('svg');
+    font-weight: 700;
 }
 
 @font-face {
-	font-family: "Avenir";
-	font-weight: lighter;
-	src: url("./fonts/Avenir-Light-webfont.otf") format("opentype")
-	url("./fonts/Avenir-Light-webfont.eot") format("eot"),
-	url("./fonts/Avenir-Light-webfont.ttf") format("truetype"),
-	url("./fonts/Avenir-Light-webfont.woff") format("woff"),;
+    font-family: 'proxima_nova';
+    src: url('./fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.eot');
+    src: url('./fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.woff2') format('woff2'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.woff') format('woff'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.ttf') format('truetype'),
+         url('./fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.svg#proxima_nova_altbold') format('svg');
+    font-weight: 600;
+}
+
+
+@font-face {
+    font-family: 'proxima_nova';
+    src: url('./fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot');
+    src: url('./fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Mark Simonson - Proxima Nova Semibold-webfont.woff2') format('woff2'),
+         url('./fonts/Mark Simonson - Proxima Nova Semibold-webfont.woff') format('woff'),
+         url('./fonts/Mark Simonson - Proxima Nova Semibold-webfont.ttf') format('truetype'),
+         url('./fonts/Mark Simonson - Proxima Nova Semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: 500;
 }
 
 @font-face {
-	font-family: "Avenir";
-	font-weight: italic;
-	src: url("./fonts/Avenir-Oblique-webfont.otf") format("opentype")
-	url("./fonts/Avenir-Oblique-webfont.eot") format("eot"),
-	url("./fonts/Avenir-Oblique-webfont.ttf") format("truetype"),
-	url("./fonts/Avenir-Oblique-webfont.woff") format("woff"),;
+    font-family: 'proxima_nova';
+    src: url('./fonts/Mark Simonson - Proxima Nova Thin-webfont.eot');
+    src: url('./fonts/Mark Simonson - Proxima Nova Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Mark Simonson - Proxima Nova Thin-webfont.woff2') format('woff2'),
+         url('./fonts/Mark Simonson - Proxima Nova Thin-webfont.woff') format('woff'),
+         url('./fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf') format('truetype'),
+         url('./fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#proxima_nova_ltthin') format('svg');
+    font-weight: 100;
 }
 
 .container {
@@ -55,16 +76,28 @@ body {
 
 @media screen and (min-width: 320px) {
 
-.topheader {
-	height: 65px;
-	background-color: #3C404D;
+
+.button {
+	position: absolute;
+	margin-left: .75em;
+	margin-top: 1.15em;
+	border: 1px solid #555;
+	padding: .43em .3em .43em .43em;
+	font-size: 1.25em;
+	text-decoration: none;
+	letter-spacing: .115em;
 }
 
-.logo {
-	width: 6em;
-	position: absolute;
-	margin-left: 1.5em;
-	margin-top: 1.5em;
+.button:hover {
+	color: #3191EC;
+	border-color: #3191EC;
+}
+
+
+a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #555;
+	font-weight: 400;
 }
 
 ul li {
@@ -94,7 +127,14 @@ ul li {
 
 #linkedin {
 	width: 1.25em;
-	padding-right: .25em;
+}
+
+#fb {
+	width: .75em;
+}
+
+#dribbble {
+	width: 1.25em;
 }
 
 .coverphoto {	
@@ -105,45 +145,6 @@ ul li {
 	height: 200px;
 }
 
-.descriptionalt {
-	/*display: none;*/
-	text-align: center;
-	color: #fff;
-	padding-left: 3em;
-	padding-right: 3em;
-	padding-top: 5em;
-}
-
-.descriptionalt h1 {
-	text-align: center;
-	font-size: 2em;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	font-weight: lighter;
-}
-
-.descriptionalt h3 {
-	font-weight: lighter;
-	color: #999;
-}
-
-.descriptionalt p {
-	display: none;
-}
-
-/*.ontraportcover {
-	width: 100%;
-}*/
-
-.description {
-	text-align: center;
-	padding: 2.5em 8% 3em 8%;
-}
-
-.description h1 {
-	text-transform: uppercase;
-	color: #0d293d;
-}
 
 hr {
     border: 0;
@@ -165,85 +166,56 @@ hr {
 	margin-right: 1em;
 }
 
-.description p {
-	font-weight: lighter;
-	color: #6e6e6e;
-	margin-top: .5em;
+.headerphoto img {
+	max-width: 100%;
+	padding-top: 3em;
 }
 
-.twoebooks {
-	margin-top: 1em;
+.ontraportbody {
+	max-width: 94%;
+	margin: 0 auto;
 }
 
 .firstebook img {
-	width: 65%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 4em;
+	width: 100%;
+	margin-bottom: 2em;
 }
 
-.secondebook img {
-	width: 65%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 3em;
+.ontraportbody h1 {
+	padding-bottom: .5em;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #3a3a3a;
+	font-weight: 600;
 }
 
-.ebookdescription {
-	text-align: center;
-}
-
-.ebookdescription h3 {
+.ontraportbody h3 {
+	margin-bottom: .75em;
 	margin-top: 2em;
-	font-weight: lighter;
+	color: #3a3a3a;
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+.ontraportbody h4 {
+	padding-bottom: .4em;
+	color: #3a3a3a;
 	font-size: 1.5em;
+	font-weight: 500;
 }
 
-.ebookdescription p {
-	margin-bottom: 5em;
-	color: #6e6e6e;
-	font-weight: italic;
-	font-size: 1em;
+.ontraportbody p {
+	color: #3a3a3a;
+	font-weight: 400;
+	line-height: 1.75em;
+	padding-bottom: 2em;
 }
 
-.background {
-	background-color: #f8f8f8;
-}
-
-.twoposters {
-	margin: 1em;
-}
 
 .firstposter img{
-	width: 65%;
+	width: 100%;
 	display: block;
-	margin: 0 auto;
-	margin-top: 4em;
-	box-shadow: 5px 5px 5px #888888;
-}
-
-.secondposter img {
-	width: 65%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 3em;
-}
-
-.posterdescription {
-	text-align: center;
-}
-
-.posterdescription h3 {
-	margin-top: 2em;
-	font-weight: lighter;
-	font-size: 1.5em;
-}
-
-.posterdescription p {
-	margin-bottom: 5em;
-	color: #6e6e6e;
-	font-weight: italic;
-	font-size: 1em;
+	margin-bottom: 2em;
 }
 
 .nextscreen {
@@ -253,38 +225,14 @@ hr {
 	display: flex;
 }
 
-.homebutton {
-	background-color: #3C404D;
-	width: 50%;
-	height: 100%;
-	text-decoration: none;
-	color: #ffffff;
-	font-weight: lighter;
-	text-align: center;
-	line-height: 4em;
-	letter-spacing: .25em;
+a:visited.btmbutton, a:link.btmbutton, a:active.btmbutton {
+	text-decoration: underline;
+	color: #6e6e6e;
+	font-weight: 400;
 }
 
-.dustbutton {
-	background-color: #0d293d;
-	width: 50%;
-	height: 100%;
-	text-decoration: none;
-	color: #ffffff;
-	font-weight: lighter;
-	text-align: center;
-	line-height: 4em;
-	letter-spacing: .25em;
-}
-
-a:visited, a:link, a:active {
-	text-decoration: none;
-	color: #fff;
-	font-weight: lighter;
-}
-
-a:hover {
-	color: #8f8f8f;
+a:hover.btmbutton {
+	color: #ccc;
 }
 
 ul li a:visited {
@@ -295,16 +243,43 @@ ul li a:link {
 	color:#8f8f8f;
 }
 
-/*footer {
-	display:flex;
-	justify-content: center;
-	padding: 2em;
-	background-color: #3C404D;
+.wall-poster img {
+	max-width: 100%;
+	margin-top: 1em;
 }
 
-footer p{
-	color: #fff;
-}*/
+#lasttext {
+	margin-bottom: 4em;
+}
+
+.home {
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+.btmcontact {
+	height: 8em;
+}
+
+.btmnav {
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 6em;
+	padding-right: 1.75em;
+}
+
+.lastline {
+	display: flex;
+	justify-content: center;
+	height: 2.5em;
+}
+
+.lastline p {
+	color: #ccc;
+}
+
 
 @media screen and (min-width: 768px){
 
@@ -323,103 +298,51 @@ footer p{
 	display: none;
 }
 
-.description {
-	display: none;
+.ontraportbody {
+	max-width: 38em;
 }
 
-.description p {
-	margin: 10px auto;
-	max-width: 600px;
+.ontraportbody h1 {
+	font-size: 3em;
 }
 
-.descriptionalt {
-	padding: 5em 0;
+.ontraportbody h3 {
+	font-size: 2em;
 }
 
-.descriptionalt h1 {
-	font-size: 4em;
+.ontraportbody p {
+	font-size: 1.25em;
 }
 
-.descriptionalt p{
-	display: block;
-	max-width: 36em;
-	margin: 1em auto;
-	line-height: 1.75em;
-	letter-spacing: .15em;
-}
-
-.twoebooks {
-	display: flex;
-	justify-content: center;
-}
-
-.firstebook img {
-	margin-top: 4em;
-	margin-right: 2em;
-}
-
-.secondebook img {	
-	margin-top: 4em;
-}
-
-.twoposters {
-	display: flex;
-	justify-content: center;
-}
-
-.firstposter img{
-	margin-top: 4em;
-	margin-right: 2em;
-}
-
-.secondposter img {
-	margin-top: 4em;
-}
-
-.nextscreen {
-	height: 6em;
-}
-
-.homebutton {
-	line-height: 6em;
-}
-
-.dustbutton {
-	line-height: 6em;
-}
 
 }
 
 @media screen and (min-width: 1024px){
 
+.topheader {
+	position: fixed;
+}	
+
+
+.button {
+	margin-left: 1.25em;
+	margin-top: 1.4em;
+	border: 1.5px solid #555;
+	padding: .425em .35em .425em .45em;
+	font-size: 2em;
+}
+
 .coverphoto {
 	height: 600px;
 }
 
-.descriptionalt {
-	display: block;
-	text-align: center;
-	padding: 14em 0;
+.ontraportbody {
+	max-width: 44em;
+	margin: 0 auto;
 }
 
-.descriptionalt h1 {
-	font-size: 4em;
-	text-transform: uppercase;
-	color: #fff;
-	letter-spacing: .08em;
-}
-
-.descriptionalt p {
-	font-size: 1.15em;
-	color: #fff;
-	font-weight: lighter;
-	max-width: 40em;
-	line-height: 1.5em;
-	letter-spacing: .15em;
-}
-
-.contact{
-	display: none;
+.dustbody h3 {
+	font-size: 2em;
 }
 
 .contactwords {
@@ -445,30 +368,9 @@ footer p{
 }
 
 .firstebook img {
-	max-width: 50%;
-
+	max-width: 100%;
 }
 
-.secondebook img {	
-	max-width: 50%;
-	margin-left: 2em;
-}
-
-.firstposter img{
-	max-width: 65%;
-	margin-top: 4em;
-	margin-right: 2em;
-}
-
-.secondposter img {
-	max-width: 65%;
-	margin-top: 4em;
-	margin-left: 2em;
-}
-
-/*footer {
-	padding: 4em;
-}*/
 
 }
 
