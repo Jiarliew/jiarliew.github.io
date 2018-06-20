@@ -72,7 +72,8 @@ body {
 }
 
 .backgroundimage{
-	background-image: url(workcover.png);
+	/*background-image: url(workcover.png);*/
+	background-color: #f8f8f8;
 	display: flex;
 	flex-direction: column;
 	height: 30em;
@@ -127,23 +128,23 @@ ul li {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	/*padding: 8em 1em 0em 1em;*/
-	padding: 10em 1em 0em 1em;
+	padding: 12em 1em 0em 1em;
 }
 
 .mainheader h4 {
-	color: #ffffff;
+	color: #3a3a3a;
 	letter-spacing: .1em;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .mainheader h2 {
 	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: 100;
+	color: #3a3a3a;
+	font-weight: 600;
 	font-size: 1.25em;
 	letter-spacing: .075em;
 	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 .mainheader p {
@@ -221,12 +222,7 @@ ul li {
 } 
 
 .button:hover {
-	padding: 1em 1.35em 1em 1.35em;
-	transition-duration: .5s;
-	border-color: #43A0DF;
-    background-color: #43A0DF;
-    color: white;
-    box-shadow: 0 17px 40px 0 rgba(0,0,0,0.19);
+    color: #88C6F0;
 }
 
 a:visited, a:link, a:active {
@@ -255,14 +251,6 @@ ul li a:link {
 	background-color: #1C232E;
 }
 
-.aboutme {
-	display: flex;
-	background-color: #f8f8f8;
-	align-items: center;
-	text-align: center;
-	height: 50em;
-}
-
 .profilephoto img{
 	width: 10em;
 	padding-bottom: 2em;
@@ -276,6 +264,7 @@ ul li a:link {
 
 .btmcontact {
 	height: 8em;
+	background-color: #f8f8f8;
 }
 
 .btmnav {
@@ -291,6 +280,7 @@ ul li a:link {
 	display: flex;
 	justify-content: center;
 	height: 2.5em;
+	background-color: #f8f8f8;
 }
 
 .lastline p {
@@ -301,16 +291,19 @@ ul li a:link {
 @media screen and (min-width: 768px) {
 
 .backgroundimage{
-	height: 45em;
+	height: 12em;
 }
 
 .mainheader {
-	/*padding: 20em 15% 0 15%;*/
-	padding: 24em 15% 0 12%;
+	padding: 4em 12% 0 12%;
 	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 .mainheader h2 {
-	font-size: 2.5em;
+	font-size: 1.75em;
 	padding-top: 0em;
 }
 
