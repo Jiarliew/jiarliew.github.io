@@ -73,7 +73,7 @@ body {
 
 .backgroundimage{
 	/*background-image: url(workcover.png);*/
-	background-color: #f8f8f8;
+	background-color: #fff;
 	display: flex;
 	flex-direction: column;
 	height: 30em;
@@ -173,6 +173,12 @@ ul li {
 	margin: 20% 20% 10% 20%;
 }
 
+
+.productimg img {
+	width: 80%;
+	margin: 15% 10% 10% 10%;
+}
+
 .pikaimg img {
 	width: 80%;
 	margin: 20% 10% 10% 10%;
@@ -189,7 +195,6 @@ ul li {
 }
 
 .description h1 {
-	text-transform: uppercase;
 	font-weight: 600;
 	color: #333;
 }
@@ -264,7 +269,7 @@ ul li a:link {
 
 .btmcontact {
 	height: 8em;
-	background-color: #f8f8f8;
+	background-color: #fff;
 }
 
 .btmnav {
@@ -302,6 +307,7 @@ ul li a:link {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .mainheader h2 {
 	font-size: 1.75em;
 	padding-top: 0em;
@@ -343,6 +349,16 @@ ul li a:link {
 }
 
 .ontraportimg img {
+	width: 100%;
+	margin: 0%;
+}
+
+.productimg {
+	width: 35%;
+	margin: 0% 10% 0% 6%;
+}
+
+.productimg img {
 	width: 100%;
 	margin: 0%;
 }

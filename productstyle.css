@@ -136,33 +136,18 @@ a:visited, a:link, a:active {
 	width: 1.25em;
 }
 
-#fb {
-	width: .75em;
-}
-
-#dribbble {
-	width: 1.25em;
-}
-
 .coverphoto {	
-	background-image: url(dustcoverphoto.png);
+	background-image: url(productcoverphoto.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 750px;
+	height: 400px;
 	text-align: right;
-	margin-bottom: 3em;
 }
 
 .title {
 	display: flex;
 	justify-content: space-between;
-}
-
-.vr img {
-	width: 3em;
-	margin-top: 1em;
- 
 }
 
 .dustbody {
@@ -393,8 +378,9 @@ p.videodesc {
 @media screen and (min-width: 768px){
 
 .coverphoto {
-	height: 800px;
+	height: 500px;
 	background-attachment: fixed;
+	margin-bottom: 3em;
 }
 
 .dustbody {
@@ -446,10 +432,6 @@ p.videodesc {
 .topheader {
 	position: fixed;
 }	
-
-.vr img {
-	width: 4em;
-}
 
 
 .contactwords {
